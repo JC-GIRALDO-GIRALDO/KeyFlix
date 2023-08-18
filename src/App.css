@@ -1,0 +1,66 @@
+.container {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 0;
+  width: 100%;
+}
+.header {
+  width: 98%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+h1 {
+  margin: 1rem;
+  font-size: 60px;
+  color: darkred;
+}
+nav {
+  margin: 0.5rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+nav a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  font-size: 30px;
+}
+.inputMovie {
+  margin: 2rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.inputMovie form input {
+  width: 250px;
+  height: 30px;
+}
+.inputMovie form button {
+  width: 70px;
+  height: 40px;
+}
+h2 {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 40px;
+  margin: 0;
+}
+.movieStyle {
+  margin: 0 auto;
+  margin-top: 1rem;
+  align-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto;
+}
+.containerMovie {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+p {
+  margin: 0 auto;
+  max-width: 200px;
+  background-color: darkred;
+  color: rgba(255, 255, 255, 0.9);
+}
+.movieStyle img {
+  max-width: 200px;
+}
